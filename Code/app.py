@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-from Code.preprocessing import load_stop_words
-from Code.vsm import load_documents, build_indices, compute_document_norms, process_query
+from preprocessing import load_stop_words
+from vsm import load_documents, build_indices, compute_document_norms, process_query
 import math
 from collections import Counter
-from Code.preprocessing import preprocess_text
+from preprocessing import preprocess_text
 
 
 

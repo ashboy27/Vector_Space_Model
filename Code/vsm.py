@@ -1,7 +1,7 @@
 from collections import Counter
 import math
 import os
-from Code.preprocessing import preprocess_text
+from preprocessing import preprocess_text
 
 
 def load_documents(directory):
